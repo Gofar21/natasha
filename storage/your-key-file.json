@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sw-skincare",
+  "private_key_id": "ba03b3bff3362f11546da0ea0191caac35b981e4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDQp3W1VJ1nkTrZ\nvwjuK/T3zZ6cq6D1cMCCVuwFtjFq+oxPFzDWUZRGIgVtwyDWqHGVUcvWIU7Kg3OI\nZPOi98CKKLONjqlevRCYkGVY3kahfhMRoGMubtpGtnT/Ki91+p4LYyVzD+R0EKoA\nwt7vZn2adhhtTCyLtZ2QKaGOxDq+rk7/yfyIPVIKb3KJwlLB3qGOX71YSBSHaGMB\nSg6YC5KmpWL6FEMKXKFj/uBs+1vDS6H709j6IavenLk3OkliKLxh9THbyvFpb02b\n3wNbmDCqJmzSQIcu1M0wmrVvrNppJFllYxKQUUq0DdiVI4RDHm1PM+MjHOwl2qnV\npwdFvMuTAgMBAAECggEAAcjU3GKnX/nhf3g/Ss4sb6weBagAHelDdDnrFddrj8cp\nyQlhPQwAkSL8WeZ30u4o3oaPEDtDsb6zD8ERRl0JFAVqF7VXJHzIdg2SGFL6Vqo9\n3oI5Ju4CxuULlh0Vv9QPYviLmvLRWN7FnXENOA3v2BDXf6PNo7o/aTq5638pI3VV\nODzQPxxSeVUp8YtrA7dA/9k2zhbDwriN+SG/j/LM7ptgRVPgZn8GzpHH5Yj/yCvS\nphrqLXJi0GqUOE4mAs+LazeeayhWdidxzai1KstAkr+EwWV45WPXq9bROVz22bMu\nZpBq1NWhDIU4xxU+P9kHoFsFUFuvMdD/3hDZA5PkCQKBgQD3avsa9eb92N07P/9J\nGpUToJMT7J8fngvt3j1Mxj1J+vfpCUqM6jC6f1FP8lHDaHH1K7J018KogmtBOLf5\ntz4IpnM5Z9RccV6UuiJHA7levcE0uPiHM0USNOs0hcGXMxWoOAAVTpn7JUZ/MNpz\nqs9cWxX5PfD8q70LStCFysSWKQKBgQDX5EPQBaGmyr4qLQ0AdSb4/Iu8PJWdOZpB\nq0i6pnqHDqX+/F4L0lTeoNAQOHvG3TNG/nXCDnlic4kZgL0V6Mdtu32RyitHyNYN\nGiOUm0aPPWyGd7iuD8b3pV4tBTyxNZYRb7JH0WCVmSj0UGhtf776ZcbUBviHV1Cw\njbVbJg9zWwKBgEK/CZ7sV7SDnKsvSJ9gHHd/Ci6F1yega3dwTPk5Qa+DlP25E/OP\n+jVVw4ndxVECDDwn3azHyCvNg0HFG1yyonmS7eK+r/uAWhOlYznlN0znxAeFHwba\nPff7brhsnR09GsqW0O7ulXu7QplthIFPw0EXEYZ7v1dqvUUemcJ+QSqBAoGAbpbk\nUdQAqXLjlLE9HsXkL9kWL1eNgFt4dDksaUhMLZDIYWSfPEkC5oPT8OsuJIE8+hnw\n8nX9ofvy99hlg6qZNdG8EglQwFXVqCKCpWYg79EUHZGITcmRL1xLcJ5lJ5V+iPIB\njh5n7lnli7kAtU6h4pxuDECB4LpOgBInG0jU008CgYAKuJCY0yVwV22PdibIMHwr\nvAS3dR8jC1nSj6Oi3Cp4uDnMCm4M9sgAgmxG3U/A3qcVU8pa4xIaQR+2l4SMUHf4\npBGM7XeXOK0myevc/M6fXeHvcChoxVzz5GVRH4bIUYXuk4P3UGc/ve7osow+/CJd\nRYXe+1/9Yl7UATbwZVQndQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "test1-271@sw-skincare.iam.gserviceaccount.com",
+  "client_id": "109022694527809518887",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test1-271%40sw-skincare.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
