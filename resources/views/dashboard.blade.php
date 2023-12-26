@@ -26,16 +26,16 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://natasha-skin.com/wp-content/uploads/2023/10/promoweboct2.jpg" class="d-block w-100" alt="...">
+      <img src="https://natasha-skin.com/wp-content/uploads/2023/11/promowebnov1-1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://natasha-skin.com/wp-content/uploads/2023/10/threatment-laser-armpit-oktober.jpg" class="d-block w-100" alt="...">
+      <img src="https://natasha-skin.com/wp-content/uploads/2023/11/dailywebpromonov3.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://natasha-skin.com/wp-content/uploads/2023/10/dailywebpromooct3.jpg" class="d-block w-100" alt="...">
+      <img src="https://natasha-skin.com/wp-content/uploads/2023/11/dailywebpromonov1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://natasha-skin.com/wp-content/uploads/2023/10/dailywebpromooct1.jpg" class="d-block w-100" alt="...">
+      <img src="https://natasha-skin.com/wp-content/uploads/2023/11/dailywebpromonov5.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -86,12 +86,18 @@
 
 
 </script>
-<!-- <iframe
+ {{-- <iframe
     allow="microphone;"
     width="350"
     height="430"
     src="https://console.dialogflow.com/api-client/demo/embedded/a506553c-2c64-45d7-8137-f40cf1acfd05">
-</iframe> -->
-
+</iframe>  --}}
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Natasha"
+  agent-id="27d0d0a2-f569-401a-9207-3f7ba539d670"
+  language-code="id"
+></df-messenger>
 
 </x-app-layout>

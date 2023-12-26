@@ -2,23 +2,23 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-        <img src="https://natasha-skin.com/wp-content/uploads/2023/06/NATASHA-LOGO.png" style="max-width:120px;"> 
+    <a class="navbar-brand" href="{{ route('/') }}">
+        <img src="https://natasha-skin.com/wp-content/uploads/2023/11/NATASHA-LOGO.png" style="max-width:120px;"> 
     </a>
-    <button onclick="tutup()">
+    <button onclick="tutup()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="hallo">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="{{ route('/') }}">Home</a>
+          <a class="nav-link" aria-current="page" href="{{ route('/') }}">Perawatan Kami</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('chatbot') }}">chatbot</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            {{-- Dropdown --}}
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -30,11 +30,21 @@
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
+         {{-- <li class="nav-item">
+          <a class="nav-link" href="{{ route('login') }}">Login</a>
+        </li> 
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> --}}
       </ul>
-      <form class="d-flex">
-        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button> -->
-      </form>
+      {{-- <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+       
+      </form> --}}
+      {{-- <li class="nav-item"> --}}
+        <a class="" href="{{ route('login') }}">Login</a>
+      {{-- </li> --}}
     </div>
   </div>
 </nav>

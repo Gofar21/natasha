@@ -2,7 +2,9 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                <img src="https://natasha-skin.com/wp-content/uploads/2023/11/NATASHA-LOGO.png" style="max-width:150px;" >
+
+                {{-- <x-application-logo class="w-20 h-20 fill-current text-gray-500" /> --}}
             </a>
         </x-slot>
 
@@ -37,6 +39,7 @@
                 <label for="remember_me" class="inline-flex items-center">
                     <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="remember">
                     <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
+                    <a class="nav-link " href="{{ route('register') }}">Register</a>
                 </label>
             </div>
 

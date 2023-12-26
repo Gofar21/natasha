@@ -2,7 +2,8 @@
     <x-auth-card>
         <x-slot name="logo">
             <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+                <img src="https://natasha-skin.com/wp-content/uploads/2023/11/NATASHA-LOGO.png" style="max-width:150px;" >
+                {{-- <x-application-logo class="w-20 h-20 fill-current text-gray-500" /> --}}
             </a>
         </x-slot>
 
