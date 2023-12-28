@@ -22,6 +22,9 @@
             <p style="margin-top: 10px">
                 <a href="{{ route('faq') }}">FAQ</a>
             </p>
+            <p style="margin-top: 10px">
+                <a href="{{ route('faq') }}">FAQ</a>
+            </p>
         </div>
         {{-- <div class="col-3" style="text-align:left;">
             <h5 style="color: #F4A51C">Social Media</h5>
